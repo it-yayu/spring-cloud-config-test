@@ -1,13 +1,8 @@
 server:
-  port: 9001
+  port: 9002
 spring:
   application:
-    name: config-client
-  cloud:
-    config:
-      profile: xyy
-      uri: http://localhost:8901
-      name: bootstrap
+    name: config-client-test-xyy
 eureka:
   client:
     service-url:
